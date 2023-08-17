@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   const form = document.querySelector('[contact-form-7 id="20930" title="Priskollen"]');
   const outputElement = document.querySelector('#estimat_output');
+   console.log("Kod körs");
 
   form.addEventListener('submit', function (event) {
     event.preventDefault();
