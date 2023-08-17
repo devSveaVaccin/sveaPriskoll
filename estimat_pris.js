@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const form = document.querySelector('[title="Priskollen"]');
+    const form = document.querySelector('[contact-form-7 id="20930" title="Priskollen"]');
     const outputElement = document.createElement('div');
     form.appendChild(outputElement);
 
